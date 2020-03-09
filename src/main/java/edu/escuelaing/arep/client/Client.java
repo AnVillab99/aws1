@@ -2,7 +2,7 @@ package edu.escuelaing.arep.client;
 
 import java.io.IOException;
 
-public interface client {
+public interface Client {
     static int Threads = 10;
 
 

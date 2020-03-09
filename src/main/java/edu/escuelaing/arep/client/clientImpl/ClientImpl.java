@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import edu.escuelaing.arep.client.client;
+import edu.escuelaing.arep.client.Client;
 import edu.escuelaing.arep.client.worker;
 
 //import com.google.gson.Gson;
 
-public class ClientImpl implements client{
+public class ClientImpl implements Client{
 
     static int PORT;
     static int Threads = 10;
