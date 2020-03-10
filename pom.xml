@@ -22,15 +22,19 @@
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>exec-maven-plugin</artifactId>
             <version>1.2.1</version>
-            <configuration>
-              <archive>
-                <manifest>
-                  <mainClass>edu.escuelaing.arep.clientImpl.ClientImpl</mainClass>
-                </manifest>
-              </archive>
-                <mainClass>edu.escuelaing.arep.Client</mainClass>
-            </configuration>
         </plugin>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>edu.escuelaing.arep.client.clientImpl.ClientImpl</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
     </plugins>
 </build>
 </project>

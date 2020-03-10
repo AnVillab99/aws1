@@ -36,7 +36,7 @@ public class WorkerImpl implements Runnable {
             System.err.println(x);
         }
         long endTime = System.nanoTime();
-        System.out.println("Tiempo de ejecucion :" + (double) ((endTime - inicio) / 10000000000.0));
+        System.out.println("Tiempo de ejecucion :" + (double) ((endTime - inicio) / 1000000000.0));
         System.out.println("muere");
 
     }
