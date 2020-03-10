@@ -1,5 +1,4 @@
 # aws-1-arep
- # BetterSpring
 [![CircleCI](https://circleci.com/gh/AnVillab99/BetterSpring.svg?style=svg)](https://circleci.com/gh/AnVillab99/BetterSpring)
 
 This laboratory intends for the students to create a basic app on AWS that receives and prints information of a http petitions directed to a heroku app.
@@ -29,9 +28,9 @@ To run this program on local, first you need to executo con console
 > mvn clean install
 >
 then execute the client file on target, or on the target/classes en folder execute on cmd:
-> jar cfe AWS-1.jar Client *
-then:
-> java -jar AWS-1.jar 
+> mvn package
+then on the target folder:
+> java -jar ClientAWS.jar numeroDeHilosAProbar
 
 Images showing the precoess are found on the evidence pdf file.
 
@@ -43,8 +42,10 @@ The server :
 > https://arep-lab-5.herokuapp.com
 
 <br>
+
 Server files:
-> 
+> https://github.com/AnVillab99/Arep-Lab-5
+
 
 ## Built With
 
