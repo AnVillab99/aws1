@@ -39,9 +39,12 @@ Images showing the precoess are found on the evidence pdf file.
 
 On the emebeded pdf document is a simple description of the design pdf. 
 
-The server files and design can be found on the following link:
-> https://github.com/AnVillab99/BetterSpring
+The server :
+> https://arep-lab-5.herokuapp.com
 
+<br>
+Server files:
+> 
 
 ## Built With
 

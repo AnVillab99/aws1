@@ -23,6 +23,11 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>1.2.1</version>
             <configuration>
+              <archive>
+                <manifest>
+                  <mainClass>edu.escuelaing.arep.clientImpl.ClientImpl</mainClass>
+                </manifest>
+              </archive>
                 <mainClass>edu.escuelaing.arep.Client</mainClass>
             </configuration>
         </plugin>
