@@ -31,13 +31,11 @@ public class WorkerImpl implements Runnable {
             while ((inputLine = reader.readLine()) != null) {
                 a++;
             }
-            System.out.println(a + "                          Recibio todo");
         } catch (IOException x) {
             System.err.println(x);
         }
         long endTime = System.nanoTime();
         System.out.println("Tiempo de ejecucion :" + (double) ((endTime - inicio) / 1000000000.0));
-        System.out.println("muere");
 
     }
 
